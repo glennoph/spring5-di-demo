@@ -16,6 +16,7 @@ public class PrimaryGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
+
         return greetingRepository.getEnglishGreeting();
     }
 }
